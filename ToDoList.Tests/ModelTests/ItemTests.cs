@@ -89,9 +89,8 @@ namespace ToDoList.Tests
       Item newItem = new Item(description);
 
       //Act
-      //int result = newItem.Id; //this makes a pass
-      int result = 0; // good fail
-
+      int result = newItem.Id; 
+    
       //Assert
       Assert.AreEqual(1, result);
     }
